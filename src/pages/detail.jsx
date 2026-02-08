@@ -24,7 +24,7 @@ export default function Home() {
   return (
     <div className="px-25 flex justify-between items-center max-md:flex-col max-md:px-2">
       <div className="w-[40%] flex flex-col items-start max-md:w-full">
-        <p className="text-5xl uppercase">{data.title}</p>
+        <p className="text-5xl uppercase max-md:text-3xl">{data.title}</p>
         <div className="flex mb-20 items-center justify-start">
           {arr.map((item) => {
             if (item < data.rating?.rate) {
