@@ -10,6 +10,7 @@ import Category from "./category";
 export default function Home() {
   const [data, setData] = useState([]);
   const { t, i18n } = useTranslation();
+  localStorage.set
 
   const getData = async function () {
     try {
